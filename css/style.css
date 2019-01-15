@@ -1,0 +1,139 @@
+body {
+  background-image: url("https://i.postimg.cc/2jKv1kks/OU.jpg");
+
+}
+
+.pa_staff {
+  position: relative;
+ bottom: -100px;
+  width: 100%;
+  height:400px;
+  background: rgba(2555, 255, 255, 0.8);
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.pa_staff .tabs-onglets {
+  position: absolute;
+  bottom: 0;
+  padding: 5px;
+  width: calc(100% - 10px);
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.pa_staff .tabs-onglets a {
+  color: #89a896;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: 0.25s all ease-in-out;
+}
+
+.pa_staff .tabs-onglets .selected,
+.pa_staff .tabs-onglets a:hover {
+  color: #f0868d;
+  transform: rotate(180deg);
+}
+
+.pa_staff #contenu #contenue {
+  padding: 35px;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.pa_staff #contenu h1 {
+  margin-top: 0;
+}
+
+.pa_staff .oumou  {
+  text-align: center;
+  padding: 5px;
+}
+
+.pa_staff .oumou img {
+  width: 300px;
+  height: 300px;
+  box-shadow: 3px 2px 0px 5px #c4cbbc;
+  float: left;
+  margin-right: 10px;
+  margin-top: -3px;
+}
+
+.pa_staff .oumou .pseudo {
+  position: relative;
+  z-index: 10;
+  display: inline-block;
+  background: #f1f1f1;
+  padding: 2px 15px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  font: 700 14px "Lato";
+  text-transform: uppercase;
+  color: #f0868c;
+  transform: rotate(-2deg);
+}
+
+.pa_staff .oumou .rang {
+  position: relative;
+  display: inline-block;
+  width: 60%;
+  font: 19px Times;
+  color: #6f925f;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: #f1eff0;
+  border-radius: 5px;
+  padding: 2px 0;
+  margin-top: -10px;
+}
+
+.pa_staff .oumou .rang:before,
+.pa_staff .oumou .rang:after {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 10px;
+  background-color: #9c9c9e;
+  top: 40%;
+  border-radius: 50%;
+}
+
+.pa_staff .oumou .rang:before {
+  left: 5px;
+}
+
+.pa_staff .oumou .rang:after {
+  right: 15px;
+}
+
+.pa_staff .oumou .mc {
+  display: inline-block;
+  width: 74%;
+  font: 19px "Lato";
+  text-transform: lowercase;
+  color: rgba(0, 0, 0, 0.4);
+  font-style: italic;
+}
+
+.pa_staff .oumou .links {
+  font: 10px "Arial";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.pa_staff .oumou .links a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pa_staff .oumou .links a:first-child {
+  color: #f0868c;
+}
+.pa_staff .oumou .links a:last-child {
+  color: #6f925f;
+}
